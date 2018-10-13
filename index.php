@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="nl">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
     <title>Hello, world!</title>
 </head>
@@ -23,8 +22,7 @@
                 <a class="navbar-brand" href="#">
                     <img src="1280px-NOS_logo.svg.png" alt="Logo" class="img-fluid" width="100">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <ol class="breadcrumb">
@@ -36,7 +34,7 @@
             </nav>
             <h1>Moeder van Hugo Borst overleden</h1>
             <time datetime="2018-08-18T08:17:31+0200">Za 18 augustus, 08:17 </time><a class="link-grey">Binnenland</a>
-            <img src="xxl.jpg"  class="img-responsive center-block" >
+            <img src="xxl.jpg"  class="img-responsive center-block" alt="Hugo Borst">
             <blockquote style="height: 62px; width: 801px;">Hugo Borst in 2017 tijdens de presentatie van zijn nieuwe boek Ach, moedertje ANP<footer>Hugo Borst</footer></blockquote>
         <p>De moeder van schrijver, columnist en NOS-presentator Hugo Borst is in een verpleegtehuis in Rotterdam overleden. Joke Borst was 89 jaar. Hugo schreef elke week over haar onder de kop "Mijn ma" in het AD-magazine. Zij leed aan alzheimer.</p>
         <p>Borsts woede over de behandeling die zijn moeder onderging, inspireerde hem en onderzoeker Carin Gaemers in 2016 tot het schrijven van een open brief aan de toenmalige staatssecretaris van Volksgezondheid, Van Rijn. Daarin veroordeelden zij het tekort aan personeel in de verpleegzorg en de vele administratieve taken die de verzorgenden moesten verrichten. De patiënten kregen daardoor niet de zorg en veiligheid die ze nodig hadden.</p>
@@ -53,5 +51,19 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<footer>
+  <p id="copy">
+    &copy; Mediacollege Amsterdam 2014<br>
+    Bron: lessen SLB Mediacollege Amsterdam
+  </p>
+  <div id="validatie">
+    <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+      <img src="http://blog.boyet.com/blog/files/media/image/valid-html5-blue.png" alt="Valide HTML5"></a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+      <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+    </a>
+  </div>
+</footer>
 </body>
 </html>
